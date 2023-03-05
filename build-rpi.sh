@@ -7,6 +7,9 @@
 sudo apt-get -y install qt5-qmake qtbase5-dev qtchooser qtbase5-dev-tools qtscript5-dev libqt5webkit5-dev libqt5serialport5-dev  \
  libqt5svg5-dev libqt5serialport5-dev libqt5opengl5-dev qml-module-qtquick-controls libsndfile1-dev devscripts libsdl2-dev flite1-dev
 
+sudo apt-get -y install git libsdl1.2-dev  libsndfile-dev \
+  flite1-dev libssl-dev libudev-dev libsdl2-dev python3-serial python3-pexpect
+
 cd ~
 
 git clone https://github.com/diydrones/apm_planner && mv apm_planner apmplanner2 && cd apmplanner2/debian
