@@ -5,7 +5,7 @@
 
 
 sudo apt-get -y install qt5-qmake qtbase5-dev qtchooser qtbase5-dev-tools qtscript5-dev libqt5webkit5-dev libqt5serialport5-dev  \
- libqt5svg5-dev libqt5serialport5-dev libqt5opengl5-dev qml-module-qtquick-controls libsndfile1-dev devscripts
+ libqt5svg5-dev libqt5serialport5-dev libqt5opengl5-dev qml-module-qtquick-controls libsndfile1-dev devscripts libsdl2-dev
 
 cd ~
 
